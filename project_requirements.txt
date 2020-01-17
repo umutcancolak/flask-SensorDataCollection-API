@@ -1,0 +1,18 @@
+PROJECT REQUIREMENTS / DOC
+
+To-Do's
+-----------
+- api lere güvenlik eklenecek
+- mongo configurasyonu db_config.ini dosyasından alınacak
+
+/sensors
+GET
+return all sensor values
+
+# unique sensor id as format <userid-sensor_id>
+/sensor/<id>
+GET
+return sensor value from spesicific sensor_id
+POST
+data format => {moisture:float,temperature:float}
+send value to mongodb

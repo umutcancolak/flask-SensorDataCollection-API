@@ -1,0 +1,7 @@
+*.pyc
+/models/__pycache__
+/resource/__pycache__
+/__pycache__
+dature_project_env/
+backend_env/
+*.vscode
